@@ -4,9 +4,9 @@
 -- Drop tables in reverse FK order if you need to reset
 DROP TABLE IF EXISTS Grade;
 DROP TABLE IF EXISTS Enrollment;
- DROP TABLE IF EXISTS Assignment;
- DROP TABLE IF EXISTS Category;
- DROP TABLE IF EXISTS Student;
+DROP TABLE IF EXISTS Assignment;
+DROP TABLE IF EXISTS Category;
+DROP TABLE IF EXISTS Student;
 DROP TABLE IF EXISTS Class;
 
 -- CLASS: one row per course section
