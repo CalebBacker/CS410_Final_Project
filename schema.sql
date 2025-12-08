@@ -56,7 +56,6 @@ CREATE INDEX idx_assignment_classid ON Assignment(class_id);
 CREATE INDEX idx_assignment_categoryid ON Assignment(category_id);
 
 -- STUDENT: global list of students
--- username is PK like
 CREATE TABLE Student (
                          username   VARCHAR(50) PRIMARY KEY,
                          student_id VARCHAR(20) UNIQUE NOT NULL,
